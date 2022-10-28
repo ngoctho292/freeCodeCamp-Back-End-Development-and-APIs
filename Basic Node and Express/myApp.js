@@ -23,7 +23,8 @@ res.json({"message": "Hello json"})
 });
 
 // lesson 6: Use the .env File
-// NOTE: Because Replit can't create file .env on path main, so you click icon lock(Secrets) on the left screen. Fill in KEY and VALUE
+// NOTE: Because Replit can't create file .env on path main, so you click icon lock(Secrets) on the left screen.
+// Fill in KEY and VALUE!!
 // KEY: MESSAGE_STYLE
 // VALUE: uppercase
 app.get("/json",(req, res) => {
